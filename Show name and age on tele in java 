@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner leia = new Scanner(System.in);
+        
+         String  nome;
+         int idade;
+        
+         System.out.println("Digite seu nome");
+         nome=leia.next();
+         System.out.println("Digite sua idade");
+         idade=leia.nextInt();
+        
+         System.out.println("Nome:"+nome);
+         System.out.println("idade:"+idade);
+	
+    }
+}
